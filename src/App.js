@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import coba from './coba.svg';
 import './App.css';
+
+import Komponensatu from './komponen/Komponen';
+import Komponendua from './komponen/Komponendua';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={ini} className="App-logo" alt="logo" />
-        <p>
-          Ini
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          
-        </a>
-      </header>
+       <div className='utama'>
+       <img src={coba} className="App-logo" alt="logo" />
+        <Komponensatu />
+        
+
+       </div>
+       <div className='dua'>
+       <Komponendua/>
+
+       </div>
     </div>
   );
 }
