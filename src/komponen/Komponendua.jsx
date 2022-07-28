@@ -1,7 +1,9 @@
-const clickbtn= () => {
-    alert('Terima Kasih Telah Berkunjung');
+const Komponentkedua = () => {
+    const handlerClick = () => {
+         alert('terima kasih')
+          }
+    return (
+          <button onClick={handlerClick}>Klik Untuk Lanjut</button>
+ )
 }
-
-    const Komponendua = () => <button onClick={clickbtn}>Klik,Untuk Lanjut!</button>;   
-
-    export default Komponendua;
+export default Komponentkedua;
